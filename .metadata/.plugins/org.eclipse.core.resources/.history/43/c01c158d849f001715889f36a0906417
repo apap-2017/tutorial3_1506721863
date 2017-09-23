@@ -1,0 +1,21 @@
+package com.example.tutorial3.service;
+
+public class InMemoryStudentService implements StudentService {
+	private static List<StudentModel> studentList = new ArrayList<StudentModel>();
+	
+	@Override
+	public StudentModel selectStudent(String npm) {
+		//implement
+		return null;
+	}
+	
+	@Override
+	public List<StudentModel> selectAllStudents() {
+		return studentList;
+	}
+	
+	@Override
+	public void addStudent(StudentModel student) {
+		studentList.add(student);
+	}
+}

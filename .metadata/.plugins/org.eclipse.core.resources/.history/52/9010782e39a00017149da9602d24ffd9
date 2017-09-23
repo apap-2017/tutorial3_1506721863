@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Aw, Crap!</title>
+	</head>
+	<body>
+		<h3 th:text="No such student!"></h3>
+	</body>
+</html>
